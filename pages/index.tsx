@@ -40,7 +40,7 @@ export default function Home() {
       imgSrc: "/images/005.jpg",
     },
     {
-      title: "Keep Going (version1)- Tica Rey",
+      title: "Keep Going (version1) - Tica Rey",
       srcMusic: "./music/06-Keep-Going.mp3",
       imgSrc: "/images/006.jpg",
     },
