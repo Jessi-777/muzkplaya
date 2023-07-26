@@ -41,7 +41,7 @@ export default function Home() {
     },
     {
       title: "Keep Going (version1)- Tica Rey",
-      srcMusic: "./music/06-keep-Going.mp3",
+      srcMusic: "./music/06-Keep-Going.mp3",
       imgSrc: "/images/006.jpg",
     },
     {
