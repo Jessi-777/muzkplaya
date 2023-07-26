@@ -44,6 +44,11 @@ export default function Home() {
       srcMusic: "./music/06-Keep-Going.mp3",
       imgSrc: "/images/006.jpg",
     },
+    {
+      title: "I Said - Tica Rey",
+      srcMusic: "./music/07-I-Said.mp3",
+      imgSrc: "/images/007.jpg",
+    },
    
   ]);
   const [playingList, setPlayingList] =
