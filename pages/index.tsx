@@ -283,7 +283,7 @@ export default function Home() {
             {playingList[currentSong].title}
           </span>
           <span className="text-xl opacity-70 dark:text-white">
-            Produced By Tica Rey
+            Produced By T!C/\ R3Y
           </span>
           <ProgressBar
             progressBarRef={progressBarRef}
