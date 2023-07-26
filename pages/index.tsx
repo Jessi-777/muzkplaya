@@ -44,16 +44,16 @@ export default function Home() {
       srcMusic: "./music/06-Keep-Going.mp3",
       imgSrc: "/images/006.jpg",
     },
-    {
-      title: "Forever - Tica Rey",
-      srcMusic: "./music/Forever.mp3",
-      imgSrc: "/images/007.jpg",
-    },
-    {
-      title: "I Said - Tica Rey",
-      srcMusic: "./music/08-I-Said.mp3.mp3",
-      imgSrc: "/images/008.jpg",
-    },
+    // {
+    //   title: "Forever - Tica Rey",
+    //   srcMusic: "./music/Forever.mp3",
+    //   imgSrc: "/images/007.jpg",
+    // },
+    // {
+    //   title: "I Said - Tica Rey",
+    //   srcMusic: "./music/08-I-Said.mp3.mp3",
+    //   imgSrc: "/images/008.jpg",
+    // },
   ]);
   const [playingList, setPlayingList] =
     useState<Array<{ title: string; srcMusic: string; imgSrc: string }>>(
