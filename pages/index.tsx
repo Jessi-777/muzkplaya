@@ -45,8 +45,8 @@ export default function Home() {
       imgSrc: "/images/006.jpg",
     },
     {
-      title: "Beautiful Day - Tica Rey",
-      srcMusic: "./music/07-Beautiful-Day.mp3",
+      title: "Forever - Tica Rey",
+      srcMusic: "./music/Forever.mp3",
       imgSrc: "/images/007.jpg",
     },
   ]);
@@ -69,7 +69,7 @@ export default function Home() {
     const currentTime = audioPlayer.current?.currentTime;
     setTime(currentTime);
     if (duration) {
-      progressBarRef.current.any = currentTime;
+      progressBarRef.current.value = currentTime;
       progressBarRef.current.style.setProperty(
         "--range-progress",
         `${(progressBarRef.current.value / duration) * 100}%`
