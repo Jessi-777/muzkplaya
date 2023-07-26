@@ -39,6 +39,16 @@ export default function Home() {
       srcMusic: "./music/05-I-Know-Better-Now.mp3",
       imgSrc: "/images/005.jpg",
     },
+    {
+      title: "Keep Going (version1)- Tica Rey",
+      srcMusic: "./music/06-keep-Going.mp3",
+      imgSrc: "/images/006.jpg",
+    },
+    {
+      title: "Beautiful Day - Tica Rey",
+      srcMusic: "./music/07-Beautiful-Day.mp3",
+      imgSrc: "/images/007.jpg",
+    },
   ]);
   const [playingList, setPlayingList] =
     useState<Array<{ title: string; srcMusic: string; imgSrc: string }>>(
@@ -59,7 +69,7 @@ export default function Home() {
     const currentTime = audioPlayer.current?.currentTime;
     setTime(currentTime);
     if (duration) {
-      progressBarRef.current.value = currentTime;
+      progressBarRef.current.any = currentTime;
       progressBarRef.current.style.setProperty(
         "--range-progress",
         `${(progressBarRef.current.value / duration) * 100}%`
@@ -124,32 +134,32 @@ export default function Home() {
         className="fixed inset-x-0 top-0 flex flex-col items-center rounded-b-[50px] border-x border-b  border-white bg-white bg-opacity-30 pb-8 backdrop-blur-sm dark:border-none dark:bg-black dark:bg-opacity-70"
       >
         <div className="flex w-full items-center justify-between px-7 py-2 ">
-          <div className="flex h-14 w-14 items-center justify-center">
-            <img src="./images/trcrown.jpg" />
+          <div className="flex h-4 w-14 items-center justify-center">
+            <img src="./images/trcrown.jpg" width={400} height={200}/>
           </div>
         <div className="mt-4 flex flex-col items-center dark:text-white">
             <span className="text-shadow text-xl font-medium">Now Playing</span>
             <span className="text-base font-medium opacity-70">Album</span>
         </div>
-        <div className="flex justify-center space-x-4 h-14 w-14 items-center dark:text-white ">
+        {/* <div className="flex justify-center space-x-4 h-14 w-14 items-center dark:text-white ">
           <Link href="/">
           </Link>
         <div  className="cursor-pointer"> 
             <h2>Hom3</h2>
             <Link href="/">
           </Link>
-        </div>
-        <div className="cursor-pointer">
+        </div> */}
+        {/* <div className="cursor-pointer">
             <h2>/\bout</h2>
             <Link href="/about">
           </Link>
-        </div>
-          <div className="cursor-pointer">
+        </div> */}
+          {/* <div className="cursor-pointer">
             <h2>Contact</h2>
             <Link href="/contact">
           </Link>
-          </div>
-        </div>
+          </div> */}
+        {/* </div> */}
         {/* </div>  */}
 
           <div
