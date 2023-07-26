@@ -140,7 +140,7 @@ export default function Home() {
           </div>
         <div className="mt-4 flex flex-col items-center dark:text-white">
             <span className="text-shadow text-xl font-medium">Now Playing</span>
-            <span className="text-base font-medium opacity-70">T!C/\ R3Y</span>
+            <span className="text-base font-medium opacity-70">T!CA R3Y</span>
         </div>
         {/* <div className="flex justify-center space-x-4 h-14 w-14 items-center dark:text-white ">
           <Link href="/">
