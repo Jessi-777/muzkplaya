@@ -136,33 +136,34 @@ export default function Home() {
       >
         <div className="flex w-full items-center justify-between px-7 py-2 ">
           <div className="flex h-4 w-14 items-center justify-center">
+{/* make this Tica Crown a portal to another page */}
             <img src="./images/trcrown.jpg" width={400} height={200}/>
           </div>
         <div className="mt-4 flex flex-col items-center dark:text-white">
             <span className="text-shadow text-xl font-medium">Now Playing</span>
             <span className="text-base font-medium opacity-70">T!CA R3Y</span>
         </div>
-        {/* <div className="flex justify-center space-x-4 h-14 w-14 items-center dark:text-white ">
+{/* ----- NAV BAR START ---- */}
+      {/* <div className="flex justify-center space-x-4 h-14 w-14 items-center dark:text-white ">
           <Link href="/">
           </Link>
-        <div  className="cursor-pointer"> 
+          <div  className="cursor-pointer"> 
             <h2>Hom3</h2>
             <Link href="/">
-          </Link>
-        </div> */}
-        {/* <div className="cursor-pointer">
+            </Link>
+          </div>
+        <div className="cursor-pointer">
             <h2>/\bout</h2>
             <Link href="/about">
           </Link>
-        </div> */}
-          {/* <div className="cursor-pointer">
+        </div>
+          <div className="cursor-pointer">
             <h2>Contact</h2>
             <Link href="/contact">
-          </Link>
-          </div> */}
-        {/* </div> */}
-        {/* </div>  */}
-
+            </Link>
+          </div>
+        </div> */}
+{/* ----- NAV BAR END---- */}
           <div
             onClick={() => setDark(!dark)}
             className=" flex h-14 w-14 items-center justify-center rounded-full bg-blue-900 bg-opacity-50 ">
