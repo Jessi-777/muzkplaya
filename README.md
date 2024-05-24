@@ -1,2 +1,3 @@
 # muzkplaya
-Somethings aren't meant to be read, but heard. This is one of them. <3
+* Music Evolution 
+- music player open source project
